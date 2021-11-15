@@ -49,11 +49,11 @@ section {
   margin-right: 5px;
 }
 #Section2{
-  margin-left: 3px;
+  margin-left: 11px;
   margin-right: -10px;
 }
 #Section3{
-  margin-left: 18px;
+  margin-left: 24px;
   margin-right: -15px;
 }
 
@@ -105,7 +105,7 @@ span {
     width: 25%;
   }
   .col-md-4 {
-    width: 33.33%;
+    width: 33%;
   }
   .col-md-5 {
     width: 41.66%;
@@ -131,6 +131,21 @@ span {
   .col-md-12 {
     width: 100%;
   }
+
+  #Section1 {
+    margin-left: -10px;
+  }
+
+  #Section2 {
+    margin-left: 10px;
+  }
+
+  #Section3 {
+    margin-left: 24px;
+  }
+
+
+
 } 
 
 
@@ -157,7 +172,7 @@ span {
     width: 41.66%;
   }
   .col-sm-6 {
-    width: 50%;
+    width: 49%;
   }
   .col-sm-7 {
     width: 58.33%;
@@ -177,7 +192,12 @@ span {
   .col-sm-12 {
     width: 100%;
   }
-}  
+
+  #Section3 {
+    margin-top: 17px;
+    margin-left: -3px;
+  }
+}
 
 /****** Mobile Version *******/
 
@@ -196,32 +216,46 @@ span {
   .col-xs-3 {
       width: 25%;
   }
-  .col-md-4 {
+  .col-xs-4 {
       width: 33.33%;
   }
-  .col-md-5 {
+  .col-xs-5 {
       width: 41.66%;
   }
-  .col-md-6 {
+  .col-xs-6 {
       width: 50%;
   }
-  .col-md-7 {
+  .col-xs-7 {
       width: 58.33%;
   }
-  .col-md-8 {
+  .col-xs-8 {
       width: 66.66%;
   }
-  .col-md-9 {
+  .col-xs-9 {
       width: 74.99%;
   }
-  .col-md-10 {
+  .col-xs-10 {
       width: 83.33%;
   }
-  .col-md-11 {
+  .col-xs-11 {
       width: 91.66%;
   }
-  .col-md-12 {
+  .col-xs-12 {
       width: 100%;
   }
 
+  #Section1 {
+    margin-left: 0;
+    margin-bottom: 17px;
+  }
+
+  #Section2 {
+    margin-left: 0;
+    margin-bottom: 17px;
+  }
+
+  #Section3 {
+    margin-left: 0;
+    margin-bottom: 17px;
+  }
 }
